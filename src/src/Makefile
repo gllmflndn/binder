@@ -95,7 +95,6 @@ main-distclean:
 
 main-install:
 	$(COPY) $(SPMMEX) ..
-	$(MOVE) ../spm_brainwarp.$(SUF) ../toolbox/OldNorm
 
 archive: spm_vol_utils.$(SUF).a
 
