@@ -54,10 +54,7 @@ SPMMEX  =\
 	spm_cat.$(SUF) spm_jsonread.$(SUF) spm_mesh_reduce.$(SUF)
 
 SUBDIRS =\
-	@file_array/private \
-	@gifti/private \
-	@xmltree/private \
-	toolbox/FieldMap
+	@file_array/private
 
 ###############################################################################
 # Public make targets

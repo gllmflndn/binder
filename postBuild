@@ -1,0 +1,3 @@
+cd ~/src/src
+make PLATFORM=octave
+make PLATFORM=octave install
